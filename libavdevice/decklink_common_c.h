@@ -37,6 +37,7 @@ struct decklink_cctx {
     /* Options */
     int list_devices;
     int list_formats;
+    int video_device_number;
     int64_t teletext_lines;
     double preroll;
     int v210;
